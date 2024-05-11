@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvUpgradeYourExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade Your Experience"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnStarter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starter - Purchase"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnIntermediate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intermediate - Purchase"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnAdvanced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advanced - Purchase"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Homepage"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
